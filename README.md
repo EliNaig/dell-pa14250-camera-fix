@@ -87,6 +87,7 @@ DKMS rebuilds `intel_cvs` automatically on kernel updates. If a build ever fails
 * [Red Hat Bug 2377621: ipu7 + ov08x40 needs vision-drivers](https://bugzilla.redhat.com/show_bug.cgi?id=2377621)
 * [intel/vision-drivers](https://github.com/intel/vision-drivers) and [issue #36](https://github.com/intel/vision-drivers/issues/36)
 * [intel/ipu6-drivers issue #426: Synaptics SVP7500 bulk failures](https://github.com/intel/ipu6-drivers/issues/426)
+* [Ubuntu wiki: Intel MIPI Camera](https://wiki.ubuntu.com/IntelMIPICamera). The official enablement guide. It uses the same `intel_cvs` (listed there as `icvs`) and `v4l2loopback` foundation, but with Intel's proprietary camera HAL on Ubuntu. This repo is the Fedora, libcamera, and ov08x40 variant of that approach.
 
 ## Hardware
 
